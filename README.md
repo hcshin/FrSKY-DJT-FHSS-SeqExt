@@ -4,6 +4,9 @@ Paper URL: 1) https://link.springer.com/chapter/10.1007/978-3-319-31875-2_20 2) 
 ## NOTICE 
 Source codes used for the experiments on FrSKY DJT Telemetry system that utilizes FHSS. Note that, these codes are uploaded just for the reference not for being run directly. If you want to run them, a considerable amount of modification would be required.
 
+## Related Materials
+This work was also published as a master thesis of Hocheol Shin, which is a longer version of the WISA paper. The thesis can be downloaded from: https://syssecbox.kaist.ac.kr/index.php/s/yoQZC6vexZtBNqv
+
 ## Contents and Descriptions
 * GRCs - Gnuradio-Companion files used for generating skeletal python scripts
 	* Follow_with_single_filesource_1CH.grc - Signal flowgraph for implementing FHSS sequence tracker. Uses a recorded file source instead of an USRP, and monitors 1 channel at a time.
